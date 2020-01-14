@@ -1,9 +1,15 @@
 # Quotes
-#Louis Odhiambo
+# Louis Odhiambo
 ## 12/1/2020
 
-##Description
+## Description
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.21.Its an app where the user can input a quote, a user can also like a quote and see how many likes and dislikes a quote has. A user is able to see the most liked quote and author.
+
+### Technologies used
+* HTML 
+* CSS
+* Typescript
+* Javascript
 
 ## Development server
 
@@ -24,6 +30,14 @@ Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.
 ## Running end-to-end tests
 
 Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+
+### support and contact details
+You can conribute to my code and help me grow, contact me via;
+* +254 741 534 863 
+* odhiambolouis745@gmail.com
+
+### License
+This project is licensed under the terms of the MIT license. Copyright (C) 2019
 
 ## Further help
 
