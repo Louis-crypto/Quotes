@@ -38,7 +38,3 @@ You can conribute to my code and help me grow, contact me via;
 
 ### License
 This project is licensed under the terms of the MIT license. Copyright (C) 2019
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
