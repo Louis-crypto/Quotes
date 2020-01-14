@@ -40,18 +40,18 @@ export class QuoteComponent implements OnInit {
     }
   }
 
-  showBestQuote(){
-    this.mostVotes = 0;
-    for(let i=0; i<this.quotes.length; i++){
-      if(this.quotes[i].like > this.mostVotes){
-        this.mostVotes = this.quotes[i].like;
-        this.mostLikedAuthor = this.quotes[i].author;
-        this.mostLikedPoster = this.quotes[i].submitter;
-        this.mostLikedQuote = this.quotes[i].saying;
-        this.theDownvotes = this.quotes[i].dislike;
-      }
-    }
-  }
+  // showBestQuote(){
+  //   this.mostVotes = 0;
+  //   for(let i=0; i<this.quotes.length; i++){
+  //     if(this.quotes[i].like > this.mostVotes){
+  //       this.mostVotes = this.quotes[i].like;
+  //       this.mostLikedAuthor = this.quotes[i].author;
+  //       this.mostLikedPoster = this.quotes[i].submitter;
+  //       this.mostLikedQuote = this.quotes[i].saying;
+  //       this.theDownvotes = this.quotes[i].dislike;
+  //     }
+  //   }
+  // }
 
   constructor() { }
 
