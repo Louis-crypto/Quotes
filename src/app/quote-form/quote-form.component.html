@@ -2,13 +2,13 @@
   <h2>Add Quote</h2>
   <form #quoteForm='ngForm' (ngSubmit)='submitQuote()'>
 
-    <label for='saying'>Quote</label>
+    <!-- <label for='saying'>Quote</label>
     <input type='text' required class='form-control' id='saying'
     [(ngModel)]='newQuote.saying' saying='saying' 
     [ngModelOptions]='{standalone: true}' #saying='ngModel'><br>
     <div [hidden]='saying.valid || saying.pristine'>
       <p>Quote can't be empty</p>
-    </div>
+    </div> -->
 
     <label for='author'>Author</label>
     <input type='text' required class='form-control' id='author'
