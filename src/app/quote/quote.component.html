@@ -1,0 +1,28 @@
+<div>
+  <img src='../../assets/Einstein.jpeg' height="250px" width='500px'>
+  <h1 id="einstein">Einstein quotes</h1>
+  <ul>
+    <li *ngIf="quotes.length>0">
+      <button (click)='showBestQuote()' class="btn btn-outline-info">Click to see best quote</button>
+      <div *ngIf="mostLikedQuote && quotes.length >0" class="mostLikedQuote" appHighlight>
+        <p>Author: {{mostLikedAuthor}}</p>
+        <p>Quote: {{mostLikedQuote}}</p>
+        <p>submitter: {{mostLikedPoster}}</p>
+        <p>Highest vote: {{mostVotes}}</p>
+        <p>Down vote{{theDownvotes}}</p>
+
+      </div>
+    </li>
+    <li *ngFor='let quote of quotes; let i=index;'>
+      {{quote.saying}}<br> submitted by:
+      {{quote.submitter}}<br>
+      <button id="like" (click)='quoteLike(quote)'>{{quote.like}} Likes</button>
+      
+      <button id="dislike" (click)='quoteDislike(quote)'>{{quote.dislike}} Dislikes</button>
+      <app-quote-detail [quote]='quote' (isNull)='quoteDelete($event,i)'>
+      </app-quote-detail>
+    </li>
+  </ul>
+</div>
+<app-quote-form (addQuote)='addNewQuote($event)'></app-quote-form>
+

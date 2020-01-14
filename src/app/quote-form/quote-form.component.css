@@ -1,0 +1,18 @@
+#addForm{
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  text-align: center;
+}
+#saying, #author, #submitter, #published{
+  background: none;
+  width: 25%;
+  padding: 10px;
+  margin: 5px;
+}
+#submitQuote{
+  background: none;
+  color: white;
+  padding: 5px;
+  margin-top: 3%;
+  margin-left: 20%;
+}
