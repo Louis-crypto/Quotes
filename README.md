@@ -3,7 +3,7 @@
 ## 12/1/2020
 
 ## Description
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.21.Its an app where the user can input a quote, a user can also like a quote and see how many likes and dislikes a quote has. A user is able to see the most liked quote and author.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.21.Its an app where the user can input a quote, a user can also like a quote and see how many likes and dislikes a quote has. A user is able to see the most liked quote and author.[The project can be viewed at]( https://louis-crypto.github.io/Quotes/)
 
 ### Technologies used
 * HTML 
