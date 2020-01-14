@@ -11,10 +11,10 @@ import {Quote} from '../quote';
 
 export class QuoteComponent implements OnInit {
 
-  mostLikedAuthor:string;
-  mostLikedPoster:string;
-  mostLikedQuote:string;
-  theDownvotes:number;
+  // mostLikedAuthor:string;
+  // mostLikedPoster:string;
+  // mostLikedQuote:string;
+  // theDownvotes:number;
 
   quotes: Quote[] = [
     new Quote('Madness as you know is like gravity all it takes is a little push', 'Joker', 'Louis', new Date (2008,9,8)),
